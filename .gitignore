@@ -8,6 +8,7 @@ lerna-debug.log*
 .pnpm-debug.log*
 
 create_108.py
+library-website/src/pages/modifycontent.py
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
