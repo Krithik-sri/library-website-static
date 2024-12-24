@@ -5,24 +5,6 @@
         "destination": "/subdir/:path*",
         "permanent": false
       }
-    ],
-    "rewrites": [
-      {
-        "source": "/page/:number",
-        "destination": "/pages/:number"
-      }
-    ],
-    "headers": [
-      {
-        "source": "/(.*)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=0, no-cache, no-store, must-revalidate"
-          }
-        ]
-      }
-    ],
-    "cleanUrls": true,
-    "trailingSlash": false
+    ]
   }
+  
