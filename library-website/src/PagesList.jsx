@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Page from './components/Page';
+import Page074 from './pages/074';
+
+
 
 const PagesList = () => {
   const pageNumbers = Array.from({ length: 108 }, (_, i) => (i + 1).toString().padStart(3, '0'));
@@ -20,7 +22,7 @@ const PagesList = () => {
           <Route
             key={number}
             path={`/page/${number}`}
-            element={<Page pageNumber={number} />}
+            element={<Page074/>}
           />
         ))}
       </Routes>

@@ -1,7 +1,8 @@
 import React from "react";
+import Page from "../components/Page";
 
-const Page = () => {
-  return <div>This is page 74</div>;
+const Page074 = () => {
+  return <Page pageNumber={74} />;
 };
 
-export default Page;
+export default Page074;
