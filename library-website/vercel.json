@@ -1,10 +1,9 @@
 {
-    "redirects": [
-      {
-        "source": "/(.*)",
-        "destination": "/subdir/:path*",
-        "permanent": false
-      }
-    ]
-  }
+
+    "rewrites": [
   
+      { "source": "/(.*)", "destination": "/" }
+  
+    ]
+  
+  }
