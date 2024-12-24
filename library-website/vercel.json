@@ -1,0 +1,21 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "destination": "/subdir/:path*",
+        "permanent": false
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/page/:number",
+        "destination": "/pages/:number"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/page/(\\d+)",
+        "dest": "/pages/$1"
+      }
+    ]
+  }
